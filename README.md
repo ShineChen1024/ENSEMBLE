@@ -64,33 +64,33 @@ huggingface-cli download ShineChen1024/ENSEMBLE --local-dir ./checkpoints
 
 Given a single garment image, ENSEMBLE recommends a complete outfit and generates the styled look:
 
-### Fair Isle Cashmere Sweater
+### Navy Wool-Cashmere Sweater
 | Input | Output |
 |:---:|:---:|
-| <img src="assets/examples/P01074557_input.jpg" width="200"> | <img src="assets/examples/P01074557_output.png" width="200"> |
+| <img src="assets/examples/P01059810_input.jpg" width="200"> | <img src="assets/examples/P01059810_output.png" width="200"> |
 
-> **Rationale:** The brown Fair Isle cashmere sweater layered over a white inner, paired with blue high-waisted straight-leg jeans, makes the vintage feel more wearable. The patterned, warm upper body contrasts with the clean, straight-falling lower half — comfortable for autumn/winter weekends or travel.
+> **Rationale:** 蓝色羊毛羊绒毛衣配黑色皮革中长裙，柔软上身和利落皮革形成清楚反差。蓝色让黑裙不显冷硬，中长长度保留成熟感，秋季通勤或晚间会面都显得稳重。
 
 ### Black & White Striped Polo
 | Input | Output |
 |:---:|:---:|
 | <img src="assets/examples/P01055593_input.jpg" width="200"> | <img src="assets/examples/P01055593_output.png" width="200"> |
 
-> **Rationale:** The black-and-white striped collared top pairs well with blue high-waisted wide-leg jeans — a classic casual combination that stays timeless. The striped top keeps the upper body fresh, while the wide-leg pants relax the lower half. Both pieces are classics that look effortlessly put-together.
+> **Rationale:** 黑白条纹翻领上衣适合配蓝色高腰阔腿牛仔裤，经典休闲会很耐看。条纹上身保持清爽，宽裤放松下身，日常穿很有精神。条纹翻领和高腰阔腿裤都很经典，放在一起很耐看。
 
 ### Yellow Satin Trousers
 | Input | Output |
 |:---:|:---:|
 | <img src="assets/examples/P00962065_input.jpg" width="200"> | <img src="assets/examples/P00962065_output.png" width="200"> |
 
-> **Rationale:** These yellow satin straight-leg trousers have a bold, vivid color — a black sleeveless turtleneck grounds the brightness. The black-yellow contrast is sharp, the trouser silhouette stays clean enough, and the overall look conveys confidence and presence for an evening out.
+> **Rationale:** 这条黄色缎面直筒裤颜色很鲜明，可以用黑色无袖高领上衣压住亮度。黑黄对比清楚，裤型又足够利落，晚间出门会显得自信、有气场。
 
-### Navy Wool-Cashmere Sweater
+### Fair Isle Cashmere Sweater
 | Input | Output |
 |:---:|:---:|
-| <img src="assets/examples/P01059810_input.jpg" width="200"> | <img src="assets/examples/P01059810_output.png" width="200"> |
+| <img src="assets/examples/P01074557_input.jpg" width="200"> | <img src="assets/examples/P01074557_output.png" width="200"> |
 
-> **Rationale:** The blue wool-cashmere sweater paired with a black leather midi skirt creates a clear contrast between soft and structured. The blue keeps the black skirt from feeling too harsh, while the midi length preserves a mature look — polished enough for autumn commuting or evening gatherings.
+> **Rationale:** 棕色费尔岛羊绒毛衣叠白色内层，再配蓝色高腰直筒牛仔裤，复古感会被牛仔穿得更日常。上身有图案和温度，下身清爽直落，秋冬周末或旅行都舒服。
 
 ## Training
 
