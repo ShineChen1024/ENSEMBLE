@@ -1,6 +1,6 @@
 # ENSEMBLE
 
-### An End-to-End Fashion Stylist with Unified Recommendation and Visual Synthesis
+### See, Understand, and Style: Reasoning-Augmented Unified Fashion Recommendation and Visual Synthesis
 
 > A unified fashion stylist that recommends outfits and generates styled images — all within a single forward pass.
 
