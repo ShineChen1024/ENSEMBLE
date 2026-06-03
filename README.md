@@ -64,12 +64,12 @@ huggingface-cli download ShineChen1024/ENSEMBLE --local-dir ./checkpoints
 
 Given a single garment image, ENSEMBLE recommends a complete outfit and generates the styled look:
 
-### Red Knit Bodysuit
+### Black Bermuda Shorts
 | Input | Output |
 |:---:|:---:|
-| <img src="assets/examples/P00876967_input.jpg" width="200"> | <img src="assets/examples/P00876967_output.png" width="200"> |
+| <img src="assets/examples/P00907091_input.jpg" width="200"> | <img src="assets/examples/P00907091_output.png" width="200"> |
 
-> **Rationale:** 红色长袖针织连体上衣配黑色羊毛混纺中裙，红色有精神，黑裙把亮度收得成熟。针织贴合但不紧绷，中裙长度稳住气质，晚间会面醒目又不失分寸。
+> **Rationale:** 这条黑色棉质百慕大短裤配绿色条纹棉混翻领上衣，颜色有活力但不乱。短裤保留轻松感，条纹上身带出节奏，夏日休闲穿起来年轻又清爽。
 
 ### Black & White Striped Polo
 | Input | Output |
@@ -78,12 +78,12 @@ Given a single garment image, ENSEMBLE recommends a complete outfit and generate
 
 > **Rationale:** 黑白条纹翻领上衣适合配蓝色高腰阔腿牛仔裤，经典休闲会很耐看。条纹上身保持清爽，宽裤放松下身，日常穿很有精神。条纹翻领和高腰阔腿裤都很经典，放在一起很耐看。
 
-### Yellow Satin Trousers
+### Grey Ribbed Wool Cardigan
 | Input | Output |
 |:---:|:---:|
-| <img src="assets/examples/P00962065_input.jpg" width="200"> | <img src="assets/examples/P00962065_output.png" width="200"> |
+| <img src="assets/examples/P01054157_input.jpg" width="200"> | <img src="assets/examples/P01054157_output.png" width="200"> |
 
-> **Rationale:** 这条黄色缎面直筒裤颜色很鲜明，可以用黑色无袖高领上衣压住亮度。黑黄对比清楚，裤型又足够利落，晚间出门会显得自信、有气场。
+> **Rationale:** 灰色罗纹羊毛开衫适合配白色棉质中长裙，因为上身有柔软纹理，下身要保持清爽。让灰白关系显得安静，也带一点通勤感。适合白天会面或轻松办公，温和但不松散。
 
 ### Beige Wool-Cashmere Cardigan
 | Input | Output |
