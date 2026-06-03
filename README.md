@@ -85,12 +85,12 @@ Given a single garment image, ENSEMBLE recommends a complete outfit and generate
 
 > **Rationale:** 这条黄色缎面直筒裤颜色很鲜明，可以用黑色无袖高领上衣压住亮度。黑黄对比清楚，裤型又足够利落，晚间出门会显得自信、有气场。
 
-### Green Cashmere Top
+### Beige Wool-Cashmere Cardigan
 | Input | Output |
 |:---:|:---:|
-| <img src="assets/examples/P00973011_input.jpg" width="200"> | <img src="assets/examples/P00973011_output.png" width="200"> |
+| <img src="assets/examples/P00877896_input.jpg" width="200"> | <img src="assets/examples/P00877896_output.png" width="200"> |
 
-> **Rationale:** 绿色羊绒短袖上衣配黑色羊毛混纺中长裙，颜色清爽，线条也稳。绿色让上身有精神，黑裙把下半身收得成熟利落，日常会面穿起来很耐看。
+> **Rationale:** 米色羊毛羊绒开衫叠白色棉质短袖，再配蓝色高腰直筒牛仔裤，是很耐看的秋季日常组合。开衫柔软，白色内层让上身更清爽，牛仔裤把整体拉回轻松状态。它适合白天出行或周末会面，温和、干净，也有层次。
 
 ## Training
 
