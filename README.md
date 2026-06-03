@@ -64,12 +64,12 @@ huggingface-cli download ShineChen1024/ENSEMBLE --local-dir ./checkpoints
 
 Given a single garment image, ENSEMBLE recommends a complete outfit and generates the styled look:
 
-### Navy Wool-Cashmere Sweater
+### Red Knit Bodysuit
 | Input | Output |
 |:---:|:---:|
-| <img src="assets/examples/P01059810_input.jpg" width="200"> | <img src="assets/examples/P01059810_output.png" width="200"> |
+| <img src="assets/examples/P00876967_input.jpg" width="200"> | <img src="assets/examples/P00876967_output.png" width="200"> |
 
-> **Rationale:** 蓝色羊毛羊绒毛衣配黑色皮革中长裙，柔软上身和利落皮革形成清楚反差。蓝色让黑裙不显冷硬，中长长度保留成熟感，秋季通勤或晚间会面都显得稳重。
+> **Rationale:** 红色长袖针织连体上衣配黑色羊毛混纺中裙，红色有精神，黑裙把亮度收得成熟。针织贴合但不紧绷，中裙长度稳住气质，晚间会面醒目又不失分寸。
 
 ### Black & White Striped Polo
 | Input | Output |
@@ -85,12 +85,12 @@ Given a single garment image, ENSEMBLE recommends a complete outfit and generate
 
 > **Rationale:** 这条黄色缎面直筒裤颜色很鲜明，可以用黑色无袖高领上衣压住亮度。黑黄对比清楚，裤型又足够利落，晚间出门会显得自信、有气场。
 
-### Fair Isle Cashmere Sweater
+### Green Cashmere Top
 | Input | Output |
 |:---:|:---:|
-| <img src="assets/examples/P01074557_input.jpg" width="200"> | <img src="assets/examples/P01074557_output.png" width="200"> |
+| <img src="assets/examples/P00973011_input.jpg" width="200"> | <img src="assets/examples/P00973011_output.png" width="200"> |
 
-> **Rationale:** 棕色费尔岛羊绒毛衣叠白色内层，再配蓝色高腰直筒牛仔裤，复古感会被牛仔穿得更日常。上身有图案和温度，下身清爽直落，秋冬周末或旅行都舒服。
+> **Rationale:** 绿色羊绒短袖上衣配黑色羊毛混纺中长裙，颜色清爽，线条也稳。绿色让上身有精神，黑裙把下半身收得成熟利落，日常会面穿起来很耐看。
 
 ## Training
 
