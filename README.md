@@ -12,7 +12,7 @@
 
 - **Single-Model Stylist.** Given a single garment image, ENSEMBLE acts as a professional fashion stylist: it analyzes color, silhouette, material, and style context, then both explains its styling rationale and produces a photorealistic image of the complete outfit.
 
-- **Reasoning-Augmented Conditional Generation.** A distinctive property of our architecture is that the Qwen-VL backbone within Qwen-Image-Edit is *not* reduced to a mere text encoder — as is typical of CLIP or T5 in conventional diffusion pipelines. Instead, it retains its full multimodal reasoning capability, functioning simultaneously as a semantic encoder *and* a cognitive reasoning agent. This allows the conditioning signal fed to the diffusion head to carry rich, inference-derived representations — encoding not only surface-level visual attributes but also latent relational reasoning about style compatibility, color harmony, and compositional aesthetics. In other words, the generation process is guided by *understanding*, not merely by *encoding*.
+- **Reasoning-Augmented Conditional Generation.** A distinctive property of our architecture is that the Qwen-VL backbone within Qwen-Image-Edit is *not* reduced to a mere text encoder. Instead, it retains its full multimodal reasoning capability, functioning simultaneously as a semantic encoder *and* a cognitive reasoning agent. This allows the conditioning signal fed to the diffusion head to carry rich, inference-derived representations — encoding not only surface-level visual attributes but also latent relational reasoning about style compatibility, color harmony, and compositional aesthetics. In other words, the generation process is guided by *understanding*, not merely by *encoding*.
 
 - **End-to-End Training (TODO).** Currently the VLM and diffusion modules are fine-tuned separately with LoRA. Joint end-to-end optimization — allowing gradient flow from diffusion loss back through the VLM — is planned for future work.
 
@@ -127,4 +127,4 @@ If you find this work useful, please cite:
 
 ## Acknowledgments
 
-This project builds upon [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL) and [Qwen-Image-Edit](https://github.com/QwenLM/Qwen-Image-Edit). The outfit dataset is based on [Garments2Look](https://arxiv.org/abs/2603.14153).
+This project builds upon [Qwen-Image-Edit](https://huggingface.co/Qwen/Qwen-Image-Edit-2511).
