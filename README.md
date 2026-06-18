@@ -20,7 +20,7 @@
 
 - [x] Inference code release
 - [x] Checkpoint release
-- [ ] Training code release
+- [x] Training code release
 - [ ] Joint end-to-end training (VLM + Diffusion)
 - [ ] Dataset release
 
@@ -79,6 +79,17 @@ python app.py \
   --share
 ```
 
+### Training
+
+```bash
+bash train_mytheresa_qwen_edit_lora.sh
+```
+
+The released training entrypoints are:
+
+- `train_mytheresa_qwen_edit_lora.py`: training loop for Qwen-Image-Edit LoRA on Mytheresa outfit pairs
+- `train_mytheresa_qwen_edit_lora.sh`: launch script with default paths and distributed training options
+
 ## Pretrained Checkpoints
 
 We release the pretrained model weights on Hugging Face:
@@ -125,7 +136,7 @@ huggingface-cli download ShineChen1024/ENSEMBLE --local-dir ./checkpoints
 
 ## Training
 
-ENSEMBLE adopts a three-stage training strategy:
+ENSEMBLE uses a three-stage training strategy:
 
 - **Stage 1 — VLM Fine-tuning:** Qwen2.5-VL-7B is fine-tuned with LoRA on curated outfit recommendation data, learning to reason about garment compatibility and produce styling rationales.
 - **Stage 2 — Diffusion Fine-tuning:** [Qwen-Image-Edit](https://github.com/QwenLM/Qwen-Image-Edit) is fine-tuned with LoRA, conditioned on the VLM's hidden-state representations rather than on generated text descriptions.
@@ -139,7 +150,8 @@ ENSEMBLE/
 ├── app.py                    # Gradio web UI
 ├── merge_lora_vlm.py         # Merge LoRA into Qwen2.5-VL
 ├── merge_lora_diffusion.py   # Merge LoRA into Qwen-Image-Edit
-├── scripts/                  # Shell launch scripts
+├── train_mytheresa_qwen_edit_lora.py   # Mytheresa Qwen-Image-Edit LoRA training
+├── train_mytheresa_qwen_edit_lora.sh   # Training launcher with default paths
 ├── requirements.txt
 └── README.md
 ```
